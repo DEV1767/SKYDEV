@@ -1,0 +1,38 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+@media screen and (max-width:1024px) {
+    .navbar2{
+        display: none;
+    }
+}
+@media screen and (max-width:820px) {
+    .navbar span{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+  #ham{
+        display: flex;
+    }
+    .navbar2 span {
+        display:flex;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .navbar span{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+  #ham{
+        display: flex;
+    }
+    .navbar2 span{
+        display: flex;
+    }
+}
