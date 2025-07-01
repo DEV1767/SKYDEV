@@ -1,0 +1,232 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+@media screen and (max-width:1024px) {
+    .navbar2{
+        display: none;
+    }
+    .service{
+        height:600px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .ser-section{
+        height: 400px;
+        width: 100%;
+    }
+    .abo-section{
+        height: auto;
+        width: 100%;
+    }
+}
+@media screen and (max-width:820px) {
+    .navbar span{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+  #ham{
+        display: flex;
+    }
+    .navbar2 span {
+        display:flex;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+    }
+    .left-hero{
+        height: auto;
+        width: 80%;
+        font-size: 18px;
+        margin: auto;
+    }
+    .right-hero{
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    .img1{
+        height: 350px;
+    }
+    .service{
+        height: auto;
+        width: 100%;
+    }
+    .ser-section{
+        height: 400px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web,
+    .mob,
+    .ai{
+        height: 286px;
+        width: 235px;
+    }
+    .web span,
+    .mob span,
+    .ai span{
+        display: flex;
+        padding: 18px;
+    }
+    .web h3,
+    .mob h3,
+    .ai h3{
+        padding: 18px;
+    }
+    .web p,
+    .mob p,
+    .ai p{
+     padding:11px;
+    }
+    .ai h4{
+        padding:5px;
+    }
+    .mob h4{
+        padding:5px;
+        margin-right: 8px;
+    }
+    .abo-section{
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    
+}
+@media screen and (max-width:480px) {
+    .navbar span{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+  #ham{
+        display: flex;
+    }
+    .navbar2 span{
+        display: flex;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-hero{
+        height: auto;
+        width: 80%;
+      margin: auto;
+      font-size: 15px;
+    }
+    .right-hero{
+        height: auto;
+        width:90%;
+        margin: auto;
+    }
+    .img1{
+        height: 250px;
+
+    }
+    .service{
+        height: auto;
+        width: 100%;
+      
+    }
+    .ser-section{
+        height: auto;
+        width: 100%;
+        overflow-x: auto;
+        flex-direction: column;
+        gap: 30px;
+        overflow: hidden;
+    }
+    .web,
+    .mob,
+    .ai{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 30px;
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+.web:hover,
+.mob:hover,
+.ai:hover{
+    transform: scale(1.09);
+     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+.web span,
+.mob span,
+.ai span{
+    display:flex;
+    justify-content: flex-start;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+.web h3,
+.mob h3,
+.ai h3{
+    padding: 15px;
+}
+.web p,
+.mob p,
+.ai p{
+ padding: 15px;
+}
+.mob h4{
+    padding: 25px;
+    margin-right: 19px;
+}
+    .ai h4{
+        padding:22px;
+    }
+.abo-section{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    display: flex;
+}
+.abo-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.choose-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.abo-left{
+    height: auto;
+    width: 90%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 30px;
+
+}
+.abo-right{
+    height: auto;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.img2{
+    height: 200px;
+    width: 200px;
+}
+}
