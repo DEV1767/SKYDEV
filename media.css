@@ -214,6 +214,9 @@ padding: 0px;
     flex-direction: column;
     display: flex;
 }
+    #ab{
+        margin:auto;
+    }
 .abo-main{
     display: flex;
     justify-content: center;
@@ -280,7 +283,7 @@ padding: 0px;
 .q3,
 .q4,
 .q5{
-    height: 100px;
+    height:auto;
     width: 85%;
     padding: 14px;
 }
