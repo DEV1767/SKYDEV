@@ -503,5 +503,26 @@ textarea[name="message"]{
     text-decoration: none;
     border: none;
 }
+.con-left,
+.con-right{
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+
+
+.con-left{
+  transform: translateX(-60px);
+}
+
+
+.con-right{
+  transform: translateX(60px);
+}
+
+.con-left.animate-in,
+.con-right.animate-in {
+  opacity: 1;
+  transform: translateX(0);
+}
  
 
