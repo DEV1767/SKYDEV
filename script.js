@@ -46,6 +46,11 @@ const faqItems = document.querySelectorAll('.faq1, .faq2, .faq3, .faq4, .faq5');
 faqItems.forEach(faq => {
   observer.observe(faq);
 });
+const contactLeft = document.querySelector('.con-left');
+const contactRight = document.querySelector('.con-right');
+
+observer.observe(contactLeft);
+observer.observe(contactRight);
  
 // PLUS 1
 document.getElementById("plus1").onclick = () => {
