@@ -15,8 +15,7 @@ We specialize in:
 
 📁 Project Structure
 css
-Copy
-Edit
+
 SKYDEV/
 │
 ├── index.html         → Main Landing Page
@@ -43,7 +42,6 @@ Font Awesome Icons and Google Fonts included
 If you'd like a custom website, app, or AI chatbot, feel free to reach out or book a free strategy call.
 
 📧 Email: skydev.005@gmail.com
-📱 WhatsApp: +91 0000000000
 
 🙌 Contribution
 This is an agency showcase landing page. Pull requests are welcome if you want to improve design or features.
