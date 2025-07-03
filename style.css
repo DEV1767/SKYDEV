@@ -586,6 +586,7 @@ textarea[name="message"]{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top:25px;
 }
 .footer h1{
 
