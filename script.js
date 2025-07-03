@@ -2,6 +2,8 @@ const ham =document.getElementById("ham")
 const cros =document.getElementById("cros")
 const navbar=document.getElementById("menue")
 const onboard=document.getElementById("onboard")
+const board=document.getElementById("board")
+const calls=document.getElementById("call-b")
 const call=document.getElementById("call")
  ham.addEventListener("click",()=>{
    menue.style.display="flex"
@@ -13,6 +15,12 @@ const call=document.getElementById("call")
     window.open("https://forms.gle/NcKTbs8kc9GHaTgY6","_blank")
   })
   call.addEventListener("click",()=>{
+    window.open("https://calendly.com/shivamchy076/team-skydev","_blank")
+  })
+board.addEventListener("click",()=>{
+     window.open("https://forms.gle/NcKTbs8kc9GHaTgY6","_blank")
+  })
+  calls.addEventListener("click",()=>{
     window.open("https://calendly.com/shivamchy076/team-skydev","_blank")
   })
   const links = document.querySelectorAll('.navbar2 a');
