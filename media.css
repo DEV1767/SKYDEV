@@ -29,6 +29,9 @@ padding: 0px;
     textarea[name="message"]{
         width: 200px;
     }
+    .footer{
+        margin:auto;
+    }
 }
 @media screen and (max-width:820px) {
     .navbar span{
@@ -134,6 +137,9 @@ textarea[name="message"]{
 .con-right{
     width: 45%;
 }
+    .footer{
+        margin:auto;
+    }
 }
 @media screen and (max-width:480px) {
     .navbar span{
@@ -335,6 +341,9 @@ textarea[name="message"]{
     width: 80%;
     padding: 10px;
 }
+    .footer{
+        margin:auto;
+    }
 .footer h1{
     font-size: 28px;
 }
