@@ -321,7 +321,7 @@ textarea[name="message"]{
     align-items: center;
     flex-direction: column;
     height: 700px;
-    padding: auto;
+    padding:0px;
 }
 .con-left{
     height: auto;
