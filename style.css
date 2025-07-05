@@ -630,6 +630,7 @@ textarea[name="message"]{
 .whatsapp-float img {
   height: 60px;
   width: 60px;
+ border-radius:50%;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
